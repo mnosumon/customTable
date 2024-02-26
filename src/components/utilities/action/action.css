@@ -1,0 +1,8 @@
+.title_content button{
+    padding: 8px 15px 8px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: blueviolet;
+}

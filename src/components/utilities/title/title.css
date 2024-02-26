@@ -1,0 +1,33 @@
+/* ==============================Code for title_wrwpper========================= */
+.title_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* ===========================Code For Title============================ */
+  .title_heading{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+  }
+  /* ======================Code for content================================== */
+  .title_content{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+  }
+  .title_content a{
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 188px;
+  }
+  .title_content i{
+    font-size: 14px;
+    width: 188px;
+  }
+  .title_content p{
+    font-size: 16px;
+    line-height: 24px;
+    width: 188px;
+  }
+  .title_content:last-child a{
+    text-transform: lowercase;
+  }

@@ -1,0 +1,47 @@
+.bar_item{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.bar_item label{ 
+    font-size: 36px;
+    color: #262626;
+}
+
+.listItems{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* =====================Only for checkbox   START================= */
+.bar_item input[type="checkbox"]{ 
+    height: 30px;
+    width: 30px;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 3px solid #979797;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.bar_item input[type="checkbox"]::after{ 
+    content: "\f00c";
+    position: absolute;
+    font-family: "Font awesome 5 free";
+    font-weight: 900;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: none;
+}
+.bar_item input[type="checkbox"]:checked{
+    background-color: rgb(231, 47, 47);
+}
+.bar_item input[type="checkbox"]:checked::after{ 
+    display: block;
+}
+/* =====================Only for checkbox   END================= */
