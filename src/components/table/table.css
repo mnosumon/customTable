@@ -15,6 +15,14 @@
     font-size: 48px;
     cursor: pointer;
 }
+.table{
+    position: relative;
+}
+.sideBar{
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
 
 /* #table{
     background-color: azure;

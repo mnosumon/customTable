@@ -14,11 +14,16 @@
     gap: 30px;
     margin-top: 30px;
 }
+.sideBar{
+    width: 250px;
+    background-color: chocolate;
+    padding: 20px;
+}
 
 /* =====================Only for checkbox   START================= */
 .bar_item input[type="checkbox"]{ 
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     appearance: none;
     -webkit-appearance: none;
     border: 3px solid #979797;
@@ -36,6 +41,25 @@
     font-weight: 900;
     font-size: 25px;
     color: #FFFFFF;
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar_item input[type="checkbox"]:checked::after{ 
+    background-color: #FFFFFF;
+}
+
+/* .bar_item input[type="checkbox"]::after{ 
+    content: "\f00c";
+    position: absolute;
+    font-family: "Font awesome 5 free";
+    font-weight: 900;
+    font-size: 25px;
+    color: #FFFFFF;
     display: none;
 }
 .bar_item input[type="checkbox"]:checked{
@@ -43,5 +67,5 @@
 }
 .bar_item input[type="checkbox"]:checked::after{ 
     display: block;
-}
+} */
 /* =====================Only for checkbox   END================= */
