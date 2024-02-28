@@ -1,0 +1,22 @@
+.table_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.table_head h1{
+    font-size: 48px;
+}
+.table_head i{
+    font-size: 32px;
+    cursor: pointer;
+}
+.table_header{
+    position: relative;
+}
+.barPosition{
+    width: 250px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}

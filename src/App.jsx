@@ -1,10 +1,11 @@
 import React from 'react'
-import Table from './components/table/Table'
+import Functionality from './fanctionality/Functionality'
+
 
 const App = () => {
   return (
     <>
-      <Table/>
+      <Functionality/>
     </>
   )
 }

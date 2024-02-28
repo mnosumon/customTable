@@ -1,0 +1,46 @@
+.row_1{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px solid #979797;
+}
+.title, .category, .price, .date, .author, .status, .action{
+  width: 188px;
+}
+
+/* ========================Content Title============================ */
+  .title a{
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  .title i{
+    font-size: 14px;
+  }
+  .title p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+/* ===========================Content Category================= */
+.category span{
+  font-size: 48px;
+  line-height: 1px;
+}
+
+/* ===========================Content Status================= */
+.status select{
+  padding: 8px 25px 8px 10px;
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+  border-radius: 5px;
+}
+/* ===========================Content Action================= */
+.action button{
+  padding: 8px 15px 8px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: blueviolet;
+}

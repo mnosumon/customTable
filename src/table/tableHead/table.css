@@ -1,0 +1,10 @@
+.table{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #979797;
+}
+.tableTitle{
+    font-size: 24px;
+    width: 188px;
+}

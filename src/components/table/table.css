@@ -1,28 +1,10 @@
-.table_wrapper{
+/* .table_head{
     display: flex;
     justify-content: space-between;
 }
-.table_head{
-    display: flex;
-    justify-content: space-between;
-    margin: 40px 0;
-    align-items: center;
-}
-.table_head h1{
-    font-size: 64px;
-}
-.table_head i{
-    font-size: 48px;
-    cursor: pointer;
-}
-.table{
-    position: relative;
-}
-.sideBar{
-    position: absolute;
-    top: 80px;
-    right: 0;
-}
+.tablle{
+    margin: 30px 0;
+} */
 
 /* #table{
     background-color: azure;
