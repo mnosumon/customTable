@@ -6,7 +6,7 @@ const Sidebar = ({handleTitle, handleCategory, handlePrice, handleDate, handleAu
   return (
     <>
     <section id='sideBar'>
-      <div className="container">
+      <div className="">
         <div className="sideBar">
           <h3>Add or remove columns</h3>
           <div className="sideBar_wrapper">
